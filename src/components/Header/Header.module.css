@@ -1,0 +1,32 @@
+.default_header {
+    width: 100%;
+    padding: 2rem 0;
+    color: var(--dark-60);
+    background-color: var(--dark-20);
+}
+
+.default_header_title {
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: lighter;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.default_header_title > span {
+    color: var(--brand-color);
+}
+
+.default_header_input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    height: 40px;
+    outline: none;
+    text-indent: 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    color: var(--dark-60);
+    background-color: var(--dark-40);
+}

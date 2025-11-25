@@ -1,0 +1,45 @@
+.post_section {
+    background-color: var(--dark-20);
+    font-family: "Inter", sans-serif;
+    border: 1px solid var(--dark-20);
+    margin: 0 auto 2rem auto;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.post_section:hover {
+    border: 1px solid var(--brand-color);
+}
+
+.post_section > div:first-child {
+    justify-content: space-between;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.post_section > div:first-child > time {
+    color: var(--brand-color);
+    font-size: 0.8rem;
+}
+
+.heart_icon_style {
+    color: var(--brand-color);
+    cursor: pointer;
+}
+
+.heart_icon_liked {
+    fill: var(--brand-color);
+    color: var(--brand-color);
+}
+
+.post_section > div:last-child > h1 {
+    font-family: "Space Grotesk", sans-serif;
+    margin-bottom: 8px;
+    font-size: 1.3rem;
+}
+
+.post_section > div:last-child > p {
+    color: var(--dark-50);
+    line-height: 160%;
+    font-size: 0.9rem;
+}
